@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>alert弹出框</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<button id="but">点击</button>
+<script type="text/javascript" src="javascript/indx.js"></script>
+<script type="text/javascript">
+const but = document.getElementById('but');
+but.addEventListener('click', ()=> { // 在class类调用里面注意this指向 此处 es5 es6都可以
+	new AlertFn();
+})
+</script>
+</body>
+</html>

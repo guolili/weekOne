@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: rgba(0,0,0,0.05);
+}
+li {
+	list-style: none;
+}
+#wrap {
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid #666;
+	overflow: hidden;
+	position: relative;
+}
+#ulist {
+	height: 400px;
+}
+#ulist li {
+	width: 600px;
+	height: 400px;
+	float: left;
+}
+#ulist li img {
+	width: 100%;
+	height: 400px;
+}
+#olist {
+	width: 220px;
+	height: 50px;
+	z-index: 999;
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+}
+#olist li {
+	width: 20px;
+	height: 20px;
+	background: rgba(0,0,0,0.3);
+	border-radius: 50%;
+	text-align: center;
+	line-height: 20px;
+	float: left;
+	margin-left: 15px;
+	color: #fff;
+	cursor: pointer;
+}
+#wrap span {
+	display: inline-block;
+	width: 30px;
+	height: 35px;
+	font-size: 25px;
+	background: rgba(0,0,0,0.3);
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	position: absolute;
+	top: 45%;
+}
+#lef {
+	left: 2px;
+}
+#rig {
+	right: 2px;
+}
+.bgColor {
+	background: #f60!important;
+}
